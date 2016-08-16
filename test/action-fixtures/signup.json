@@ -1,0 +1,47 @@
+{
+  "name": "signup",
+  "timestamp": "2015-07-29T10:54:34-04:00",
+  "machineId": "iOS AppID or Android IMEI/AndroidId if available",
+  "data": {
+    "user": {
+      "id": "userId",
+      "profilePicture": "profileimage.com/1234",
+      "facebookId": 123456,
+      "phone": "1-111-2222",
+      "email": "email@email.com",
+      "name": "Julian Tempelsman",
+      "createdAt": "2015-07-29T10:54:34-04:00",
+      "creationIp": "1.2.3.4"
+    }
+  },
+  "session": {
+    "id": "123456",
+    "actor": {
+      "id": "24c2d8cd43a6"
+    }
+  },
+  "http_request": {
+    "headers": {
+      "Version": "HTTP/1.1",
+      "Host": "example.com",
+      "Connection": "close",
+      "Referer": "https://example.com/referer",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-us",
+      "Accept-Encoding": "gzip, deflate",
+      "Origin": "https://example.com",
+      "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4",
+      "X-Request": "d8f3bec5-ac31-4791-949d-32db00893133",
+      "X-Forwarded-For": "1.2.3.4",
+      "X-Forwarded-Proto": "https",
+      "X-Forwarded-Port": "443",
+      "Via": "1.1 vegur",
+      "Connect-Time": "1",
+      "X-Request-Start": "1429234031323",
+      "Total-Route-Time": "0"
+    },
+    "network": {
+      "remote_address": "1.2.3.4"
+    }
+  }
+}
