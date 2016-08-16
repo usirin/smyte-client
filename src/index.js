@@ -97,3 +97,4 @@ Smyte.Classification = {
   ALLOW: 'ALLOW',
   BLOCK: 'BLOCK'
 }
+
