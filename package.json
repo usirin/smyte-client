@@ -1,5 +1,5 @@
 {
-  "name": "simple-boilerplate-node",
+  "name": "smyte-client",
   "version": "0.0.0",
   "main": "lib/index.js",
   "scripts": {
@@ -24,19 +24,26 @@
     "babel-register": "^6.11.6",
     "eslint": "^3.2.2",
     "expect": "^1.20.2",
-    "mocha": "^3.0.0"
+    "mocha": "^3.0.0",
+    "nock-vcr-recorder": "^0.1.5"
   },
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.13.1",
+    "invariant": "^2.2.1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usirin/simple-boilerplate-node.git"
+    "url": "git+https://github.com/usirin/smyte-client.git"
   },
   "bugs": {
-    "url": "https://github.com/usirin/simple-boilerplate-node/issues"
+    "url": "https://github.com/usirin/smyte-client/issues"
   },
-  "homepage": "https://github.com/usirin/simple-boilerplate-node#readme",
-  "description": ""
+  "homepage": "https://github.com/usirin/smyte-client#readme",
+  "description": "A thin client for interacting with smyte.",
+  "keywords": [
+    "smyte"
+  ]
 }
