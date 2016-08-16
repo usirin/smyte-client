@@ -1,6 +1,6 @@
 {
   "name": "smyte-client",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
